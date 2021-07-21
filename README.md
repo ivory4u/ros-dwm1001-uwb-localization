@@ -67,9 +67,14 @@ with the corresponding port where the UWB tag is connected. The `tag_name` is on
 
 ## by min
 source ~/uwb_ws/devel/setup.bash
+
 rosrun dwm1001_uwb_tag_drivers dwm1001_active _port:=/dev/ttyACM0 _tag_name:="DW5708"
+
 or
+
 rosrun dwm1001_uwb_tag_drivers dwm1001_active_3 _port:=/dev/ttyACM0 _tag_name:="DW5708"
 
+
 ls -l /dev/ttyA*
+
 ls -l /dev/ttyA*
